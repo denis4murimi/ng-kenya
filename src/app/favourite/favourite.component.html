@@ -1,0 +1,6 @@
+<button 
+    class="favourite-btn" 
+    [ngClass]="{'favourite-btn-pressed': favourite().isFavourite}"
+    (click)="toggle()">
+    <mat-icon fontIcon="thumb_up"></mat-icon>
+</button>
